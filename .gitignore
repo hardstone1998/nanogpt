@@ -1,0 +1,30 @@
+# Training data and dataset caches. Keep the Python data loaders.
+/data/**
+!/data/**/
+!/data/**/*.py
+
+# Training outputs and model weights.
+/log/
+/logs/
+/out/
+/out-*/
+/checkpoints/
+/models/
+/weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.gguf
+*.pkl
+
+# Python bytecode and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local SSH connection settings.
+/ssh.remote.local.conf
+
